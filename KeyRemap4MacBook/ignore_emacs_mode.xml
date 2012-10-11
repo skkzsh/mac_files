@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<root>
+    <replacementdef>
+        <replacementname>EMACS_MODE_IGNORE_APPS</replacementname>
+        <replacementvalue>
+            <!-- Default -->
+            ECLIPSE,
+            EMACS,
+            REMOTEDESKTOPCONNECTION,
+            TERMINAL,
+            VI,
+            VIRTUALMACHINE,
+            X11,
+            <!-- Add -->
+            OPERA,
+            FIREFOX,
+            SAFARI,
+            THUNDERBIRD,
+            SKYPE,
+            EVERNOTE,
+            PREVIEW,
+            ITUNES,
+            FINDER,
+            ALFRED,
+            MOU,
+            SCRIPTEDITOR,
+        </replacementvalue>
+    </replacementdef>
+</root>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<root>
+
+    <!-- Define Application -->
+    <include path="appdef_more.xml" />
+
+    <!-- My Emacs Mode -->
+    <include path="my_emacs_mode.xml" />
+
+</root>

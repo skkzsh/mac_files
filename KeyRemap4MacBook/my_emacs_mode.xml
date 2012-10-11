@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<root>
+
+    <!-- Internet -->
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>OPERA</replacementvalue>
+        </replacementdef>
+    </include>
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>FIREFOX</replacementvalue>
+        </replacementdef>
+    </include>
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>SAFARI</replacementvalue>
+        </replacementdef>
+    </include>
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>THUNDERBIRD</replacementvalue>
+        </replacementdef>
+    </include>
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>SKYPE</replacementvalue>
+        </replacementdef>
+    </include>
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>EVERNOTE</replacementvalue>
+        </replacementdef>
+    </include>
+
+
+    <!-- Utility -->
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>PREVIEW</replacementvalue>
+        </replacementdef>
+    </include>
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>ITUNES</replacementvalue>
+        </replacementdef>
+    </include>
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>FINDER</replacementvalue>
+        </replacementdef>
+    </include>
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>ALFRED</replacementvalue>
+        </replacementdef>
+    </include>
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>SCRIPTEDITOR</replacementvalue>
+        </replacementdef>
+    </include>
+
+    <include path="emacs_mode_for_app.xml">
+        <replacementdef>
+            <replacementname>APP</replacementname>
+            <replacementvalue>MOU</replacementvalue>
+        </replacementdef>
+    </include>
+
+    <!-- ApplicationごとにEmacs Modeを設定するなら,
+         通常のEmacs Modeの設定は無視するようにする -->
+    <include path="ignore_emacs_mode.xml" />
+</root>
