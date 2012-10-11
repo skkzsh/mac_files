@@ -1,0 +1,32 @@
+#+TITLE: KeyRemap4MacBook
+#+AUTHOR: skkzsh
+#+LANGUAGE: ja
+#+OPTIONS: \n:nil
+
+# Last Modified: <2012/10/11 16:47:53 JST>
+
+* Homepage
+
+  [[http://pqrs.org][pqrs.org]]
+
+  - [[http://pqrs.org/macosx/keyremap4macbook/xml-include.html.ja][private.xmlでのIncludeの仕方]]
+
+
+* github
+
+  [[https://github.com/tekezo/KeyRemap4MacBook][tekezo/KeyRemap4MacBook]]
+
+  - Applicationの定義 ::
+    [[https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/appdef.xml][src/core/server/Resources/appdef.xml]]
+
+  - 変数の定義 ::
+    [[https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/replacementdef.xml][src/core/server/Resources/replacementdef.xml]]
+
+  - Emacs Mode ::
+    - [[https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/include/checkbox/emacs_mode.xml][src/core/server/Resources/include/checkbox/emacs\_mode.xml]]
+    - [[https://github.com/tekezo/KeyRemap4MacBook/blob/master/src/core/server/Resources/include/checkbox/snippets][src/core/server/Resources/include/checkbox/snippets]]
+
+
+* Others
+
+  - Property List :: ~/Library/Preferences/com.*.plist
